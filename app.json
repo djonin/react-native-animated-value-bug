@@ -3,7 +3,7 @@
     "name": "React Native Animated.Value Bug",
     "slug": "react-native-animated-value-bug",
     "privacy": "public",
-    "sdkVersion": "32.0.0",
+    "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
       "android"
