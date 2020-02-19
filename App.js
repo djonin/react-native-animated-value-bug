@@ -8,14 +8,6 @@ export default class App extends React.Component {
   constructor(props) {
     super(props)
     this.x = new Animated.Value(0)
-    this.valueChangeCounter = 0
-    this.x.addListener(({ value }) => {
-      // do not log every change since there are so many of them
-      if (this.valueChangeCounter % 5 === 0) {
-        this.log(`x: ${value}`)
-      }
-      this.valueChangeCounter += 1
-    })
     this.state = {
       boxVisible: true,
       logs: []
