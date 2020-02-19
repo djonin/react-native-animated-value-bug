@@ -11,8 +11,4 @@ yarn install
 yarn run start
 ```
 
-More instructions inside the app.
-
-## Fix
-
-[The bug was fixed in React Native 0.60.](https://github.com/facebook/react-native/commit/b3f7d53)
+More instructions inside the app
