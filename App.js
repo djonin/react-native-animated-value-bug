@@ -27,10 +27,8 @@ export default class App extends React.Component {
         </View>
         {this.renderFix(false)}
         <Text style={styles.instructions}>
-          Instructions: Click arrow buttons to move the box and see how the animated value changes during the animation.
-          Then hide the box and reveal it again. After that the arrow button still moves the box in the UI but the
-          underlying value does not change during the animation. This means that when you hide and show the box again,
-          the box location does not reflect the latest animation end value.
+          Instructions: Click arrow buttons to move the box. Then hide the box and reveal it again.
+          After that the box position will reset to initial position.
         </Text>
         <ScrollView style={styles.logs}>
           {this.state.logs.map(log => {
